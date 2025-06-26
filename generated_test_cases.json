@@ -1,0 +1,7257 @@
+{
+  "tb4": [
+    {
+      "test_case": "test_case1",
+      "domain_type": "ulphy",
+      "prb_length": 188,
+      "cells": 5,
+      "channel_type": [
+        "pucch"
+      ],
+      "hardware_type": "samsung",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case2",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 91,
+      "cells": 1,
+      "channel_type": [
+        "pucch",
+        "prach",
+        "pusch",
+        "pdsch",
+        "pdcch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case4",
+      "domain_type": "dlphy",
+      "prb_length": 117,
+      "cells": 6,
+      "channel_type": [
+        "pdsch"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case12",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 219,
+      "cells": 3,
+      "channel_type": [
+        "pusch",
+        "pucch",
+        "pdsch",
+        "pdcch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case13",
+      "domain_type": "ulphy",
+      "prb_length": 124,
+      "cells": 5,
+      "channel_type": [
+        "pucch",
+        "pusch",
+        "prach"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case15",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 222,
+      "cells": 7,
+      "channel_type": [
+        "prach",
+        "pdsch",
+        "pdcch"
+      ],
+      "hardware_type": "nvidia",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case17",
+      "domain_type": "ulphy",
+      "prb_length": 105,
+      "cells": 5,
+      "channel_type": [
+        "pusch",
+        "prach"
+      ],
+      "hardware_type": "nvidia",
+      "test_periodicity": "weekly",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case24",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 184,
+      "cells": 5,
+      "channel_type": [
+        "pusch",
+        "pdcch",
+        "pdsch"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case32",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 150,
+      "cells": 7,
+      "channel_type": [
+        "pucch",
+        "pusch",
+        "pdcch"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case36",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 108,
+      "cells": 3,
+      "channel_type": [
+        "pucch",
+        "pdcch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case39",
+      "domain_type": "ulphy",
+      "prb_length": 215,
+      "cells": 4,
+      "channel_type": [
+        "pusch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case43",
+      "domain_type": "ulphy",
+      "prb_length": 146,
+      "cells": 9,
+      "channel_type": [
+        "pucch",
+        "pusch",
+        "prach"
+      ],
+      "hardware_type": "samsung",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case44",
+      "domain_type": "dlphy",
+      "prb_length": 197,
+      "cells": 9,
+      "channel_type": [
+        "pdsch",
+        "pdcch"
+      ],
+      "hardware_type": "nvidia",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case47",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 22,
+      "cells": 4,
+      "channel_type": [
+        "pusch",
+        "pdcch"
+      ],
+      "hardware_type": "nvidia",
+      "test_periodicity": "weekly",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case48",
+      "domain_type": "dlphy",
+      "prb_length": 11,
+      "cells": 5,
+      "channel_type": [
+        "pdcch"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case54",
+      "domain_type": "dlphy",
+      "prb_length": 75,
+      "cells": 6,
+      "channel_type": [
+        "pdsch"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case55",
+      "domain_type": "dlphy",
+      "prb_length": 59,
+      "cells": 10,
+      "channel_type": [
+        "pdsch"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case60",
+      "domain_type": "ulphy",
+      "prb_length": 244,
+      "cells": 8,
+      "channel_type": [
+        "prach",
+        "pucch",
+        "pusch"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case63",
+      "domain_type": "ulphy",
+      "prb_length": 72,
+      "cells": 8,
+      "channel_type": [
+        "pucch"
+      ],
+      "hardware_type": "samsung",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case67",
+      "domain_type": "dlphy",
+      "prb_length": 186,
+      "cells": 6,
+      "channel_type": [
+        "pdsch"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case68",
+      "domain_type": "dlphy",
+      "prb_length": 31,
+      "cells": 10,
+      "channel_type": [
+        "pdsch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case69",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 62,
+      "cells": 2,
+      "channel_type": [
+        "pucch",
+        "prach",
+        "pusch",
+        "pdcch",
+        "pdsch"
+      ],
+      "hardware_type": "samsung",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case71",
+      "domain_type": "ulphy",
+      "prb_length": 135,
+      "cells": 1,
+      "channel_type": [
+        "pucch",
+        "pusch",
+        "prach"
+      ],
+      "hardware_type": "nvidia",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case73",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 225,
+      "cells": 6,
+      "channel_type": [
+        "prach",
+        "pucch",
+        "pusch",
+        "pdcch",
+        "pdsch"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case91",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 126,
+      "cells": 7,
+      "channel_type": [
+        "pusch",
+        "pdsch"
+      ],
+      "hardware_type": "nvidia",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case107",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 155,
+      "cells": 8,
+      "channel_type": [
+        "prach",
+        "pusch",
+        "pucch",
+        "pdcch"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case108",
+      "domain_type": "ulphy",
+      "prb_length": 12,
+      "cells": 9,
+      "channel_type": [
+        "prach",
+        "pusch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case109",
+      "domain_type": "dlphy",
+      "prb_length": 140,
+      "cells": 1,
+      "channel_type": [
+        "pdsch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case110",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 132,
+      "cells": 8,
+      "channel_type": [
+        "pucch",
+        "prach",
+        "pusch",
+        "pdcch"
+      ],
+      "hardware_type": "nvidia",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case111",
+      "domain_type": "ulphy",
+      "prb_length": 65,
+      "cells": 7,
+      "channel_type": [
+        "prach",
+        "pusch",
+        "pucch"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case114",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 28,
+      "cells": 2,
+      "channel_type": [
+        "pusch",
+        "pdsch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "weekly",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case120",
+      "domain_type": "dlphy",
+      "prb_length": 168,
+      "cells": 10,
+      "channel_type": [
+        "pdsch",
+        "pdcch"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case126",
+      "domain_type": "ulphy",
+      "prb_length": 61,
+      "cells": 9,
+      "channel_type": [
+        "prach",
+        "pucch"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case127",
+      "domain_type": "dlphy",
+      "prb_length": 47,
+      "cells": 9,
+      "channel_type": [
+        "pdsch",
+        "pdcch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "weekly",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case128",
+      "domain_type": "dlphy",
+      "prb_length": 135,
+      "cells": 7,
+      "channel_type": [
+        "pdcch",
+        "pdsch"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case131",
+      "domain_type": "dlphy",
+      "prb_length": 70,
+      "cells": 1,
+      "channel_type": [
+        "pdsch",
+        "pdcch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case134",
+      "domain_type": "ulphy",
+      "prb_length": 130,
+      "cells": 7,
+      "channel_type": [
+        "prach",
+        "pusch",
+        "pucch"
+      ],
+      "hardware_type": "samsung",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case135",
+      "domain_type": "ulphy",
+      "prb_length": 155,
+      "cells": 2,
+      "channel_type": [
+        "pucch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case136",
+      "domain_type": "dlphy",
+      "prb_length": 100,
+      "cells": 4,
+      "channel_type": [
+        "pdsch",
+        "pdcch"
+      ],
+      "hardware_type": "nvidia",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case147",
+      "domain_type": "dlphy",
+      "prb_length": 165,
+      "cells": 4,
+      "channel_type": [
+        "pdsch",
+        "pdcch"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case149",
+      "domain_type": "dlphy",
+      "prb_length": 238,
+      "cells": 4,
+      "channel_type": [
+        "pdsch"
+      ],
+      "hardware_type": "nvidia",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case151",
+      "domain_type": "dlphy",
+      "prb_length": 97,
+      "cells": 6,
+      "channel_type": [
+        "pdcch"
+      ],
+      "hardware_type": "nvidia",
+      "test_periodicity": "weekly",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case155",
+      "domain_type": "ulphy",
+      "prb_length": 71,
+      "cells": 5,
+      "channel_type": [
+        "pucch",
+        "prach",
+        "pusch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "weekly",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case157",
+      "domain_type": "ulphy",
+      "prb_length": 132,
+      "cells": 5,
+      "channel_type": [
+        "prach",
+        "pusch",
+        "pucch"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case159",
+      "domain_type": "ulphy",
+      "prb_length": 26,
+      "cells": 8,
+      "channel_type": [
+        "pusch",
+        "pucch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "weekly",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case163",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 219,
+      "cells": 3,
+      "channel_type": [
+        "pucch",
+        "pdcch",
+        "pdsch"
+      ],
+      "hardware_type": "nvidia",
+      "test_periodicity": "weekly",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case166",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 249,
+      "cells": 2,
+      "channel_type": [
+        "pusch",
+        "pucch",
+        "pdsch",
+        "pdcch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case169",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 185,
+      "cells": 2,
+      "channel_type": [
+        "pusch",
+        "pdcch",
+        "pdsch"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "weekly",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case172",
+      "domain_type": "ulphy",
+      "prb_length": 144,
+      "cells": 6,
+      "channel_type": [
+        "prach",
+        "pucch"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "weekly",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case180",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 238,
+      "cells": 5,
+      "channel_type": [
+        "pusch",
+        "pucch",
+        "pdsch",
+        "pdcch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case196",
+      "domain_type": "ulphy",
+      "prb_length": 140,
+      "cells": 10,
+      "channel_type": [
+        "prach"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case204",
+      "domain_type": "ulphy",
+      "prb_length": 47,
+      "cells": 1,
+      "channel_type": [
+        "pucch",
+        "pusch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case215",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 90,
+      "cells": 10,
+      "channel_type": [
+        "prach",
+        "pusch",
+        "pucch",
+        "pdsch",
+        "pdcch"
+      ],
+      "hardware_type": "samsung",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case217",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 31,
+      "cells": 6,
+      "channel_type": [
+        "prach",
+        "pusch",
+        "pucch",
+        "pdsch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case220",
+      "domain_type": "ulphy",
+      "prb_length": 122,
+      "cells": 3,
+      "channel_type": [
+        "pucch",
+        "pusch",
+        "prach"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case222",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 81,
+      "cells": 10,
+      "channel_type": [
+        "pucch",
+        "prach",
+        "pdsch"
+      ],
+      "hardware_type": "nvidia",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case233",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 69,
+      "cells": 4,
+      "channel_type": [
+        "pusch",
+        "pucch",
+        "prach",
+        "pdsch"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "weekly",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case235",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 113,
+      "cells": 7,
+      "channel_type": [
+        "pusch",
+        "prach",
+        "pdcch"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case243",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 196,
+      "cells": 4,
+      "channel_type": [
+        "pucch",
+        "pusch",
+        "pdsch"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case245",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 61,
+      "cells": 9,
+      "channel_type": [
+        "pusch",
+        "pucch",
+        "pdcch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case253",
+      "domain_type": "ulphy",
+      "prb_length": 172,
+      "cells": 4,
+      "channel_type": [
+        "pusch",
+        "prach",
+        "pucch"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "weekly",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case270",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 153,
+      "cells": 8,
+      "channel_type": [
+        "pusch",
+        "prach",
+        "pdcch",
+        "pdsch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case273",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 143,
+      "cells": 9,
+      "channel_type": [
+        "pusch",
+        "pucch",
+        "pdcch"
+      ],
+      "hardware_type": "samsung",
+      "test_periodicity": "weekly",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case275",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 54,
+      "cells": 3,
+      "channel_type": [
+        "prach",
+        "pdcch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case283",
+      "domain_type": "dlphy",
+      "prb_length": 141,
+      "cells": 10,
+      "channel_type": [
+        "pdsch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "weekly",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case285",
+      "domain_type": "dlphy",
+      "prb_length": 129,
+      "cells": 7,
+      "channel_type": [
+        "pdcch",
+        "pdsch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "weekly",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case293",
+      "domain_type": "dlphy",
+      "prb_length": 224,
+      "cells": 3,
+      "channel_type": [
+        "pdcch"
+      ],
+      "hardware_type": "nvidia",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case297",
+      "domain_type": "ulphy",
+      "prb_length": 151,
+      "cells": 2,
+      "channel_type": [
+        "pucch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case301",
+      "domain_type": "ulphy",
+      "prb_length": 50,
+      "cells": 5,
+      "channel_type": [
+        "prach",
+        "pucch"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case303",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 54,
+      "cells": 2,
+      "channel_type": [
+        "pusch",
+        "prach",
+        "pdcch"
+      ],
+      "hardware_type": "nvidia",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case307",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 242,
+      "cells": 9,
+      "channel_type": [
+        "prach",
+        "pusch",
+        "pdcch",
+        "pdsch"
+      ],
+      "hardware_type": "samsung",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case319",
+      "domain_type": "dlphy",
+      "prb_length": 54,
+      "cells": 5,
+      "channel_type": [
+        "pdcch"
+      ],
+      "hardware_type": "samsung",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case321",
+      "domain_type": "ulphy",
+      "prb_length": 139,
+      "cells": 3,
+      "channel_type": [
+        "pusch"
+      ],
+      "hardware_type": "nvidia",
+      "test_periodicity": "weekly",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case327",
+      "domain_type": "ulphy",
+      "prb_length": 106,
+      "cells": 3,
+      "channel_type": [
+        "pucch",
+        "prach"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case328",
+      "domain_type": "dlphy",
+      "prb_length": 41,
+      "cells": 5,
+      "channel_type": [
+        "pdsch",
+        "pdcch"
+      ],
+      "hardware_type": "nvidia",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case336",
+      "domain_type": "ulphy",
+      "prb_length": 225,
+      "cells": 7,
+      "channel_type": [
+        "pusch"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "weekly",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case343",
+      "domain_type": "dlphy",
+      "prb_length": 28,
+      "cells": 7,
+      "channel_type": [
+        "pdcch",
+        "pdsch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case346",
+      "domain_type": "ulphy",
+      "prb_length": 33,
+      "cells": 5,
+      "channel_type": [
+        "prach",
+        "pucch"
+      ],
+      "hardware_type": "nvidia",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case347",
+      "domain_type": "dlphy",
+      "prb_length": 163,
+      "cells": 9,
+      "channel_type": [
+        "pdcch",
+        "pdsch"
+      ],
+      "hardware_type": "samsung",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case349",
+      "domain_type": "ulphy",
+      "prb_length": 50,
+      "cells": 9,
+      "channel_type": [
+        "pucch"
+      ],
+      "hardware_type": "samsung",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case350",
+      "domain_type": "ulphy",
+      "prb_length": 99,
+      "cells": 7,
+      "channel_type": [
+        "pucch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case359",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 212,
+      "cells": 7,
+      "channel_type": [
+        "prach",
+        "pdsch",
+        "pdcch"
+      ],
+      "hardware_type": "samsung",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case363",
+      "domain_type": "ulphy",
+      "prb_length": 104,
+      "cells": 10,
+      "channel_type": [
+        "prach",
+        "pusch"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case372",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 110,
+      "cells": 5,
+      "channel_type": [
+        "prach",
+        "pusch",
+        "pucch",
+        "pdcch"
+      ],
+      "hardware_type": "nvidia",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case374",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 18,
+      "cells": 2,
+      "channel_type": [
+        "pucch",
+        "prach",
+        "pdcch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case376",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 132,
+      "cells": 7,
+      "channel_type": [
+        "pusch",
+        "pucch",
+        "prach",
+        "pdcch",
+        "pdsch"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case380",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 207,
+      "cells": 2,
+      "channel_type": [
+        "pucch",
+        "pdsch",
+        "pdcch"
+      ],
+      "hardware_type": "nvidia",
+      "test_periodicity": "weekly",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case383",
+      "domain_type": "ulphy",
+      "prb_length": 102,
+      "cells": 1,
+      "channel_type": [
+        "pusch"
+      ],
+      "hardware_type": "nvidia",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case389",
+      "domain_type": "ulphy",
+      "prb_length": 136,
+      "cells": 4,
+      "channel_type": [
+        "pusch",
+        "pucch"
+      ],
+      "hardware_type": "nvidia",
+      "test_periodicity": "weekly",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case404",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 143,
+      "cells": 7,
+      "channel_type": [
+        "prach",
+        "pucch",
+        "pdsch"
+      ],
+      "hardware_type": "samsung",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case408",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 235,
+      "cells": 10,
+      "channel_type": [
+        "prach",
+        "pucch",
+        "pusch",
+        "pdsch",
+        "pdcch"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case410",
+      "domain_type": "dlphy",
+      "prb_length": 216,
+      "cells": 1,
+      "channel_type": [
+        "pdsch"
+      ],
+      "hardware_type": "nvidia",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case414",
+      "domain_type": "ulphy",
+      "prb_length": 133,
+      "cells": 1,
+      "channel_type": [
+        "pusch",
+        "pucch"
+      ],
+      "hardware_type": "nvidia",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case416",
+      "domain_type": "dlphy",
+      "prb_length": 64,
+      "cells": 5,
+      "channel_type": [
+        "pdcch",
+        "pdsch"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case418",
+      "domain_type": "ulphy",
+      "prb_length": 177,
+      "cells": 6,
+      "channel_type": [
+        "pusch",
+        "pucch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case427",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 32,
+      "cells": 3,
+      "channel_type": [
+        "pucch",
+        "pdcch"
+      ],
+      "hardware_type": "samsung",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case429",
+      "domain_type": "ulphy",
+      "prb_length": 170,
+      "cells": 3,
+      "channel_type": [
+        "prach",
+        "pucch",
+        "pusch"
+      ],
+      "hardware_type": "samsung",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case434",
+      "domain_type": "dlphy",
+      "prb_length": 108,
+      "cells": 1,
+      "channel_type": [
+        "pdcch"
+      ],
+      "hardware_type": "nvidia",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case437",
+      "domain_type": "ulphy",
+      "prb_length": 122,
+      "cells": 6,
+      "channel_type": [
+        "pucch",
+        "prach"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case446",
+      "domain_type": "ulphy",
+      "prb_length": 55,
+      "cells": 1,
+      "channel_type": [
+        "prach",
+        "pucch"
+      ],
+      "hardware_type": "nvidia",
+      "test_periodicity": "weekly",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case453",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 32,
+      "cells": 7,
+      "channel_type": [
+        "pucch",
+        "pdcch",
+        "pdsch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case454",
+      "domain_type": "ulphy",
+      "prb_length": 105,
+      "cells": 8,
+      "channel_type": [
+        "prach",
+        "pucch",
+        "pusch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case456",
+      "domain_type": "dlphy",
+      "prb_length": 163,
+      "cells": 5,
+      "channel_type": [
+        "pdsch",
+        "pdcch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "weekly",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case475",
+      "domain_type": "dlphy",
+      "prb_length": 56,
+      "cells": 3,
+      "channel_type": [
+        "pdsch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case476",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 174,
+      "cells": 6,
+      "channel_type": [
+        "pucch",
+        "pusch",
+        "pdcch",
+        "pdsch"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case477",
+      "domain_type": "ulphy",
+      "prb_length": 201,
+      "cells": 7,
+      "channel_type": [
+        "pusch",
+        "pucch"
+      ],
+      "hardware_type": "nvidia",
+      "test_periodicity": "weekly",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case478",
+      "domain_type": "dlphy",
+      "prb_length": 227,
+      "cells": 4,
+      "channel_type": [
+        "pdsch"
+      ],
+      "hardware_type": "samsung",
+      "test_periodicity": "weekly",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case480",
+      "domain_type": "dlphy",
+      "prb_length": 137,
+      "cells": 4,
+      "channel_type": [
+        "pdcch"
+      ],
+      "hardware_type": "samsung",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case484",
+      "domain_type": "dlphy",
+      "prb_length": 106,
+      "cells": 3,
+      "channel_type": [
+        "pdcch",
+        "pdsch"
+      ],
+      "hardware_type": "samsung",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case487",
+      "domain_type": "dlphy",
+      "prb_length": 234,
+      "cells": 2,
+      "channel_type": [
+        "pdsch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case491",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 136,
+      "cells": 2,
+      "channel_type": [
+        "prach",
+        "pusch",
+        "pdsch",
+        "pdcch"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case495",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 36,
+      "cells": 2,
+      "channel_type": [
+        "prach",
+        "pdsch"
+      ],
+      "hardware_type": "samsung",
+      "test_periodicity": "weekly",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case497",
+      "domain_type": "dlphy",
+      "prb_length": 200,
+      "cells": 9,
+      "channel_type": [
+        "pdcch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    }
+  ],
+  "tb3": [
+    {
+      "test_case": "test_case3",
+      "domain_type": "ulphy",
+      "prb_length": 231,
+      "cells": 3,
+      "channel_type": [
+        "pucch"
+      ],
+      "hardware_type": "nvidia",
+      "test_periodicity": "weekly",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case6",
+      "domain_type": "ulphy",
+      "prb_length": 24,
+      "cells": 7,
+      "channel_type": [
+        "prach"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case14",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 155,
+      "cells": 8,
+      "channel_type": [
+        "pusch",
+        "pdsch"
+      ],
+      "hardware_type": "nvidia",
+      "test_periodicity": "weekly",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case18",
+      "domain_type": "ulphy",
+      "prb_length": 178,
+      "cells": 5,
+      "channel_type": [
+        "pucch",
+        "prach",
+        "pusch"
+      ],
+      "hardware_type": "samsung",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case30",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 39,
+      "cells": 8,
+      "channel_type": [
+        "pusch",
+        "pucch",
+        "prach",
+        "pdcch",
+        "pdsch"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case37",
+      "domain_type": "dlphy",
+      "prb_length": 220,
+      "cells": 4,
+      "channel_type": [
+        "pdcch",
+        "pdsch"
+      ],
+      "hardware_type": "samsung",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case42",
+      "domain_type": "dlphy",
+      "prb_length": 153,
+      "cells": 1,
+      "channel_type": [
+        "pdsch"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case61",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 105,
+      "cells": 10,
+      "channel_type": [
+        "pucch",
+        "pdsch",
+        "pdcch"
+      ],
+      "hardware_type": "nvidia",
+      "test_periodicity": "weekly",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case74",
+      "domain_type": "dlphy",
+      "prb_length": 166,
+      "cells": 5,
+      "channel_type": [
+        "pdcch",
+        "pdsch"
+      ],
+      "hardware_type": "samsung",
+      "test_periodicity": "weekly",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case80",
+      "domain_type": "ulphy",
+      "prb_length": 190,
+      "cells": 6,
+      "channel_type": [
+        "pucch",
+        "prach",
+        "pusch"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case82",
+      "domain_type": "ulphy",
+      "prb_length": 190,
+      "cells": 5,
+      "channel_type": [
+        "pusch",
+        "pucch"
+      ],
+      "hardware_type": "nvidia",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case83",
+      "domain_type": "ulphy",
+      "prb_length": 66,
+      "cells": 10,
+      "channel_type": [
+        "pusch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case88",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 213,
+      "cells": 8,
+      "channel_type": [
+        "prach",
+        "pusch",
+        "pdsch",
+        "pdcch"
+      ],
+      "hardware_type": "samsung",
+      "test_periodicity": "weekly",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case89",
+      "domain_type": "dlphy",
+      "prb_length": 228,
+      "cells": 4,
+      "channel_type": [
+        "pdcch",
+        "pdsch"
+      ],
+      "hardware_type": "samsung",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case92",
+      "domain_type": "dlphy",
+      "prb_length": 54,
+      "cells": 6,
+      "channel_type": [
+        "pdcch",
+        "pdsch"
+      ],
+      "hardware_type": "nvidia",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case94",
+      "domain_type": "ulphy",
+      "prb_length": 143,
+      "cells": 1,
+      "channel_type": [
+        "pucch"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "weekly",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case98",
+      "domain_type": "dlphy",
+      "prb_length": 194,
+      "cells": 2,
+      "channel_type": [
+        "pdcch",
+        "pdsch"
+      ],
+      "hardware_type": "samsung",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case100",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 109,
+      "cells": 7,
+      "channel_type": [
+        "pusch",
+        "prach",
+        "pucch",
+        "pdsch"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case112",
+      "domain_type": "dlphy",
+      "prb_length": 57,
+      "cells": 7,
+      "channel_type": [
+        "pdcch",
+        "pdsch"
+      ],
+      "hardware_type": "samsung",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case113",
+      "domain_type": "ulphy",
+      "prb_length": 60,
+      "cells": 8,
+      "channel_type": [
+        "pusch",
+        "prach"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case115",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 130,
+      "cells": 8,
+      "channel_type": [
+        "pusch",
+        "prach",
+        "pdsch"
+      ],
+      "hardware_type": "nvidia",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case119",
+      "domain_type": "ulphy",
+      "prb_length": 65,
+      "cells": 3,
+      "channel_type": [
+        "pusch",
+        "pucch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "weekly",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case123",
+      "domain_type": "ulphy",
+      "prb_length": 59,
+      "cells": 2,
+      "channel_type": [
+        "pucch",
+        "pusch",
+        "prach"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "weekly",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case124",
+      "domain_type": "ulphy",
+      "prb_length": 180,
+      "cells": 2,
+      "channel_type": [
+        "pusch",
+        "pucch"
+      ],
+      "hardware_type": "samsung",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case130",
+      "domain_type": "dlphy",
+      "prb_length": 137,
+      "cells": 1,
+      "channel_type": [
+        "pdsch",
+        "pdcch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case137",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 92,
+      "cells": 7,
+      "channel_type": [
+        "prach",
+        "pusch",
+        "pdcch",
+        "pdsch"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case138",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 235,
+      "cells": 6,
+      "channel_type": [
+        "prach",
+        "pdcch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case141",
+      "domain_type": "dlphy",
+      "prb_length": 58,
+      "cells": 7,
+      "channel_type": [
+        "pdsch",
+        "pdcch"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case142",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 43,
+      "cells": 8,
+      "channel_type": [
+        "pucch",
+        "prach",
+        "pusch",
+        "pdsch",
+        "pdcch"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case158",
+      "domain_type": "dlphy",
+      "prb_length": 211,
+      "cells": 5,
+      "channel_type": [
+        "pdsch",
+        "pdcch"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case160",
+      "domain_type": "ulphy",
+      "prb_length": 95,
+      "cells": 3,
+      "channel_type": [
+        "pucch"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case161",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 96,
+      "cells": 6,
+      "channel_type": [
+        "pucch",
+        "pdsch"
+      ],
+      "hardware_type": "nvidia",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case170",
+      "domain_type": "ulphy",
+      "prb_length": 144,
+      "cells": 4,
+      "channel_type": [
+        "pusch",
+        "pucch",
+        "prach"
+      ],
+      "hardware_type": "samsung",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case173",
+      "domain_type": "ulphy",
+      "prb_length": 14,
+      "cells": 6,
+      "channel_type": [
+        "pusch",
+        "prach"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case186",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 148,
+      "cells": 4,
+      "channel_type": [
+        "pucch",
+        "pusch",
+        "pdcch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case187",
+      "domain_type": "ulphy",
+      "prb_length": 226,
+      "cells": 4,
+      "channel_type": [
+        "prach",
+        "pusch"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case190",
+      "domain_type": "dlphy",
+      "prb_length": 178,
+      "cells": 3,
+      "channel_type": [
+        "pdcch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case195",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 114,
+      "cells": 8,
+      "channel_type": [
+        "prach",
+        "pucch",
+        "pusch",
+        "pdcch",
+        "pdsch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case199",
+      "domain_type": "dlphy",
+      "prb_length": 148,
+      "cells": 4,
+      "channel_type": [
+        "pdcch",
+        "pdsch"
+      ],
+      "hardware_type": "samsung",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case201",
+      "domain_type": "ulphy",
+      "prb_length": 53,
+      "cells": 10,
+      "channel_type": [
+        "pusch",
+        "prach",
+        "pucch"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "weekly",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case205",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 118,
+      "cells": 6,
+      "channel_type": [
+        "prach",
+        "pucch",
+        "pusch",
+        "pdsch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case210",
+      "domain_type": "dlphy",
+      "prb_length": 146,
+      "cells": 1,
+      "channel_type": [
+        "pdsch"
+      ],
+      "hardware_type": "samsung",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case214",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 32,
+      "cells": 3,
+      "channel_type": [
+        "pusch",
+        "pucch",
+        "prach",
+        "pdcch"
+      ],
+      "hardware_type": "samsung",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case219",
+      "domain_type": "ulphy",
+      "prb_length": 102,
+      "cells": 2,
+      "channel_type": [
+        "prach",
+        "pucch",
+        "pusch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "weekly",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case224",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 77,
+      "cells": 2,
+      "channel_type": [
+        "pucch",
+        "prach",
+        "pusch",
+        "pdcch",
+        "pdsch"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "weekly",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case225",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 81,
+      "cells": 10,
+      "channel_type": [
+        "pusch",
+        "pdcch",
+        "pdsch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case227",
+      "domain_type": "dlphy",
+      "prb_length": 120,
+      "cells": 10,
+      "channel_type": [
+        "pdcch"
+      ],
+      "hardware_type": "samsung",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case230",
+      "domain_type": "dlphy",
+      "prb_length": 92,
+      "cells": 3,
+      "channel_type": [
+        "pdcch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case236",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 126,
+      "cells": 4,
+      "channel_type": [
+        "pucch",
+        "prach",
+        "pusch",
+        "pdsch"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case242",
+      "domain_type": "ulphy",
+      "prb_length": 168,
+      "cells": 3,
+      "channel_type": [
+        "pucch",
+        "prach"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "weekly",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case249",
+      "domain_type": "ulphy",
+      "prb_length": 199,
+      "cells": 4,
+      "channel_type": [
+        "pucch"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case254",
+      "domain_type": "dlphy",
+      "prb_length": 237,
+      "cells": 3,
+      "channel_type": [
+        "pdsch"
+      ],
+      "hardware_type": "samsung",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case255",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 54,
+      "cells": 7,
+      "channel_type": [
+        "pucch",
+        "pusch",
+        "prach",
+        "pdsch",
+        "pdcch"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case256",
+      "domain_type": "ulphy",
+      "prb_length": 163,
+      "cells": 7,
+      "channel_type": [
+        "pusch",
+        "pucch"
+      ],
+      "hardware_type": "nvidia",
+      "test_periodicity": "weekly",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case259",
+      "domain_type": "ulphy",
+      "prb_length": 71,
+      "cells": 2,
+      "channel_type": [
+        "pusch"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "weekly",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case268",
+      "domain_type": "ulphy",
+      "prb_length": 12,
+      "cells": 6,
+      "channel_type": [
+        "pucch",
+        "prach"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case278",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 14,
+      "cells": 10,
+      "channel_type": [
+        "pucch",
+        "prach",
+        "pusch",
+        "pdcch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "weekly",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case289",
+      "domain_type": "ulphy",
+      "prb_length": 177,
+      "cells": 9,
+      "channel_type": [
+        "pusch"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case298",
+      "domain_type": "dlphy",
+      "prb_length": 242,
+      "cells": 7,
+      "channel_type": [
+        "pdcch"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case304",
+      "domain_type": "dlphy",
+      "prb_length": 131,
+      "cells": 5,
+      "channel_type": [
+        "pdcch",
+        "pdsch"
+      ],
+      "hardware_type": "samsung",
+      "test_periodicity": "weekly",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case305",
+      "domain_type": "ulphy",
+      "prb_length": 65,
+      "cells": 5,
+      "channel_type": [
+        "pusch",
+        "pucch"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case309",
+      "domain_type": "dlphy",
+      "prb_length": 88,
+      "cells": 7,
+      "channel_type": [
+        "pdcch",
+        "pdsch"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case314",
+      "domain_type": "ulphy",
+      "prb_length": 222,
+      "cells": 9,
+      "channel_type": [
+        "prach",
+        "pusch",
+        "pucch"
+      ],
+      "hardware_type": "nvidia",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case317",
+      "domain_type": "ulphy",
+      "prb_length": 100,
+      "cells": 8,
+      "channel_type": [
+        "pusch",
+        "prach"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "weekly",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case324",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 50,
+      "cells": 7,
+      "channel_type": [
+        "pucch",
+        "pusch",
+        "pdcch"
+      ],
+      "hardware_type": "samsung",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case326",
+      "domain_type": "ulphy",
+      "prb_length": 2,
+      "cells": 7,
+      "channel_type": [
+        "pucch",
+        "pusch"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "weekly",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case332",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 5,
+      "cells": 2,
+      "channel_type": [
+        "prach",
+        "pdsch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case335",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 115,
+      "cells": 2,
+      "channel_type": [
+        "pusch",
+        "prach",
+        "pdsch",
+        "pdcch"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case348",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 87,
+      "cells": 2,
+      "channel_type": [
+        "prach",
+        "pusch",
+        "pdcch"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case352",
+      "domain_type": "dlphy",
+      "prb_length": 202,
+      "cells": 5,
+      "channel_type": [
+        "pdcch",
+        "pdsch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case353",
+      "domain_type": "ulphy",
+      "prb_length": 40,
+      "cells": 7,
+      "channel_type": [
+        "prach",
+        "pusch",
+        "pucch"
+      ],
+      "hardware_type": "samsung",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case354",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 236,
+      "cells": 7,
+      "channel_type": [
+        "prach",
+        "pusch",
+        "pdsch"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case356",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 57,
+      "cells": 10,
+      "channel_type": [
+        "pucch",
+        "pusch",
+        "pdcch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case360",
+      "domain_type": "dlphy",
+      "prb_length": 157,
+      "cells": 1,
+      "channel_type": [
+        "pdsch"
+      ],
+      "hardware_type": "samsung",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case364",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 111,
+      "cells": 2,
+      "channel_type": [
+        "pusch",
+        "pdcch"
+      ],
+      "hardware_type": "nvidia",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case370",
+      "domain_type": "ulphy",
+      "prb_length": 248,
+      "cells": 7,
+      "channel_type": [
+        "prach",
+        "pucch",
+        "pusch"
+      ],
+      "hardware_type": "samsung",
+      "test_periodicity": "weekly",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case378",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 67,
+      "cells": 8,
+      "channel_type": [
+        "pucch",
+        "prach",
+        "pusch",
+        "pdsch",
+        "pdcch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case379",
+      "domain_type": "dlphy",
+      "prb_length": 6,
+      "cells": 7,
+      "channel_type": [
+        "pdsch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case386",
+      "domain_type": "ulphy",
+      "prb_length": 18,
+      "cells": 4,
+      "channel_type": [
+        "pusch",
+        "pucch",
+        "prach"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case392",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 216,
+      "cells": 4,
+      "channel_type": [
+        "pucch",
+        "prach",
+        "pdsch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "weekly",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case396",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 75,
+      "cells": 2,
+      "channel_type": [
+        "prach",
+        "pucch",
+        "pdsch"
+      ],
+      "hardware_type": "samsung",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case400",
+      "domain_type": "ulphy",
+      "prb_length": 193,
+      "cells": 7,
+      "channel_type": [
+        "pusch",
+        "pucch"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case403",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 80,
+      "cells": 3,
+      "channel_type": [
+        "pucch",
+        "pdcch",
+        "pdsch"
+      ],
+      "hardware_type": "nvidia",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case406",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 197,
+      "cells": 2,
+      "channel_type": [
+        "prach",
+        "pdcch",
+        "pdsch"
+      ],
+      "hardware_type": "samsung",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case407",
+      "domain_type": "ulphy",
+      "prb_length": 10,
+      "cells": 3,
+      "channel_type": [
+        "pusch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case411",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 183,
+      "cells": 9,
+      "channel_type": [
+        "pusch",
+        "prach",
+        "pucch",
+        "pdcch"
+      ],
+      "hardware_type": "samsung",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case413",
+      "domain_type": "ulphy",
+      "prb_length": 235,
+      "cells": 2,
+      "channel_type": [
+        "pusch",
+        "pucch"
+      ],
+      "hardware_type": "nvidia",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case417",
+      "domain_type": "ulphy",
+      "prb_length": 56,
+      "cells": 3,
+      "channel_type": [
+        "pucch",
+        "prach",
+        "pusch"
+      ],
+      "hardware_type": "samsung",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case419",
+      "domain_type": "dlphy",
+      "prb_length": 68,
+      "cells": 10,
+      "channel_type": [
+        "pdsch",
+        "pdcch"
+      ],
+      "hardware_type": "samsung",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case422",
+      "domain_type": "ulphy",
+      "prb_length": 113,
+      "cells": 3,
+      "channel_type": [
+        "pusch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case423",
+      "domain_type": "dlphy",
+      "prb_length": 197,
+      "cells": 3,
+      "channel_type": [
+        "pdcch"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case424",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 39,
+      "cells": 4,
+      "channel_type": [
+        "prach",
+        "pusch",
+        "pdsch",
+        "pdcch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case428",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 14,
+      "cells": 4,
+      "channel_type": [
+        "prach",
+        "pdsch",
+        "pdcch"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case430",
+      "domain_type": "dlphy",
+      "prb_length": 52,
+      "cells": 5,
+      "channel_type": [
+        "pdcch",
+        "pdsch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case435",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 231,
+      "cells": 4,
+      "channel_type": [
+        "prach",
+        "pucch",
+        "pdcch"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "weekly",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case436",
+      "domain_type": "dlphy",
+      "prb_length": 221,
+      "cells": 6,
+      "channel_type": [
+        "pdsch",
+        "pdcch"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case438",
+      "domain_type": "dlphy",
+      "prb_length": 84,
+      "cells": 1,
+      "channel_type": [
+        "pdcch",
+        "pdsch"
+      ],
+      "hardware_type": "nvidia",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case439",
+      "domain_type": "ulphy",
+      "prb_length": 151,
+      "cells": 10,
+      "channel_type": [
+        "pucch",
+        "prach",
+        "pusch"
+      ],
+      "hardware_type": "samsung",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case445",
+      "domain_type": "ulphy",
+      "prb_length": 66,
+      "cells": 8,
+      "channel_type": [
+        "pusch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case447",
+      "domain_type": "ulphy",
+      "prb_length": 71,
+      "cells": 7,
+      "channel_type": [
+        "pucch",
+        "prach",
+        "pusch"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case452",
+      "domain_type": "dlphy",
+      "prb_length": 58,
+      "cells": 10,
+      "channel_type": [
+        "pdcch"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case455",
+      "domain_type": "ulphy",
+      "prb_length": 138,
+      "cells": 1,
+      "channel_type": [
+        "prach"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "weekly",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case460",
+      "domain_type": "dlphy",
+      "prb_length": 115,
+      "cells": 5,
+      "channel_type": [
+        "pdsch"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case464",
+      "domain_type": "ulphy",
+      "prb_length": 249,
+      "cells": 8,
+      "channel_type": [
+        "pusch",
+        "prach",
+        "pucch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case466",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 27,
+      "cells": 4,
+      "channel_type": [
+        "prach",
+        "pdcch"
+      ],
+      "hardware_type": "samsung",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case471",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 182,
+      "cells": 8,
+      "channel_type": [
+        "prach",
+        "pdcch",
+        "pdsch"
+      ],
+      "hardware_type": "samsung",
+      "test_periodicity": "weekly",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case473",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 237,
+      "cells": 6,
+      "channel_type": [
+        "pucch",
+        "prach",
+        "pdsch",
+        "pdcch"
+      ],
+      "hardware_type": "nvidia",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case479",
+      "domain_type": "ulphy",
+      "prb_length": 128,
+      "cells": 8,
+      "channel_type": [
+        "pusch"
+      ],
+      "hardware_type": "nvidia",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case485",
+      "domain_type": "ulphy",
+      "prb_length": 244,
+      "cells": 5,
+      "channel_type": [
+        "pusch",
+        "prach",
+        "pucch"
+      ],
+      "hardware_type": "nvidia",
+      "test_periodicity": "weekly",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case490",
+      "domain_type": "ulphy",
+      "prb_length": 192,
+      "cells": 4,
+      "channel_type": [
+        "pucch",
+        "pusch"
+      ],
+      "hardware_type": "samsung",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case492",
+      "domain_type": "dlphy",
+      "prb_length": 90,
+      "cells": 3,
+      "channel_type": [
+        "pdcch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case493",
+      "domain_type": "dlphy",
+      "prb_length": 16,
+      "cells": 2,
+      "channel_type": [
+        "pdsch"
+      ],
+      "hardware_type": "samsung",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case496",
+      "domain_type": "ulphy",
+      "prb_length": 230,
+      "cells": 10,
+      "channel_type": [
+        "pusch"
+      ],
+      "hardware_type": "samsung",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    }
+  ],
+  "tb5": [
+    {
+      "test_case": "test_case5",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 28,
+      "cells": 5,
+      "channel_type": [
+        "prach",
+        "pusch",
+        "pucch",
+        "pdsch",
+        "pdcch"
+      ],
+      "hardware_type": "nvidia",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case7",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 31,
+      "cells": 9,
+      "channel_type": [
+        "pusch",
+        "pucch",
+        "pdsch"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case8",
+      "domain_type": "ulphy",
+      "prb_length": 175,
+      "cells": 2,
+      "channel_type": [
+        "pucch",
+        "pusch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case9",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 183,
+      "cells": 6,
+      "channel_type": [
+        "prach",
+        "pdcch"
+      ],
+      "hardware_type": "nvidia",
+      "test_periodicity": "weekly",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case10",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 11,
+      "cells": 8,
+      "channel_type": [
+        "pucch",
+        "pdsch",
+        "pdcch"
+      ],
+      "hardware_type": "samsung",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case16",
+      "domain_type": "ulphy",
+      "prb_length": 164,
+      "cells": 10,
+      "channel_type": [
+        "pusch"
+      ],
+      "hardware_type": "samsung",
+      "test_periodicity": "weekly",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case19",
+      "domain_type": "dlphy",
+      "prb_length": 62,
+      "cells": 7,
+      "channel_type": [
+        "pdsch"
+      ],
+      "hardware_type": "nvidia",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case21",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 133,
+      "cells": 3,
+      "channel_type": [
+        "pusch",
+        "prach",
+        "pucch",
+        "pdcch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case22",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 100,
+      "cells": 10,
+      "channel_type": [
+        "pusch",
+        "pucch",
+        "prach",
+        "pdsch",
+        "pdcch"
+      ],
+      "hardware_type": "nvidia",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case26",
+      "domain_type": "ulphy",
+      "prb_length": 245,
+      "cells": 5,
+      "channel_type": [
+        "prach"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case27",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 223,
+      "cells": 6,
+      "channel_type": [
+        "pusch",
+        "prach",
+        "pucch",
+        "pdcch",
+        "pdsch"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case28",
+      "domain_type": "ulphy",
+      "prb_length": 128,
+      "cells": 2,
+      "channel_type": [
+        "pucch"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case31",
+      "domain_type": "ulphy",
+      "prb_length": 153,
+      "cells": 1,
+      "channel_type": [
+        "pusch",
+        "pucch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "weekly",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case34",
+      "domain_type": "dlphy",
+      "prb_length": 110,
+      "cells": 7,
+      "channel_type": [
+        "pdcch"
+      ],
+      "hardware_type": "nvidia",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case49",
+      "domain_type": "dlphy",
+      "prb_length": 161,
+      "cells": 2,
+      "channel_type": [
+        "pdsch",
+        "pdcch"
+      ],
+      "hardware_type": "nvidia",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case50",
+      "domain_type": "ulphy",
+      "prb_length": 134,
+      "cells": 1,
+      "channel_type": [
+        "prach",
+        "pusch",
+        "pucch"
+      ],
+      "hardware_type": "nvidia",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case51",
+      "domain_type": "dlphy",
+      "prb_length": 189,
+      "cells": 3,
+      "channel_type": [
+        "pdsch",
+        "pdcch"
+      ],
+      "hardware_type": "samsung",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case59",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 236,
+      "cells": 3,
+      "channel_type": [
+        "pusch",
+        "pucch",
+        "pdcch",
+        "pdsch"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case64",
+      "domain_type": "ulphy",
+      "prb_length": 94,
+      "cells": 2,
+      "channel_type": [
+        "pucch"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case75",
+      "domain_type": "dlphy",
+      "prb_length": 236,
+      "cells": 8,
+      "channel_type": [
+        "pdcch"
+      ],
+      "hardware_type": "nvidia",
+      "test_periodicity": "weekly",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case76",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 11,
+      "cells": 1,
+      "channel_type": [
+        "pusch",
+        "pdsch",
+        "pdcch"
+      ],
+      "hardware_type": "nvidia",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case79",
+      "domain_type": "dlphy",
+      "prb_length": 238,
+      "cells": 2,
+      "channel_type": [
+        "pdsch",
+        "pdcch"
+      ],
+      "hardware_type": "samsung",
+      "test_periodicity": "weekly",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case84",
+      "domain_type": "ulphy",
+      "prb_length": 224,
+      "cells": 4,
+      "channel_type": [
+        "prach",
+        "pusch",
+        "pucch"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case86",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 144,
+      "cells": 3,
+      "channel_type": [
+        "prach",
+        "pdcch",
+        "pdsch"
+      ],
+      "hardware_type": "nvidia",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case93",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 59,
+      "cells": 2,
+      "channel_type": [
+        "pucch",
+        "prach",
+        "pdsch"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case95",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 171,
+      "cells": 4,
+      "channel_type": [
+        "prach",
+        "pusch",
+        "pdcch",
+        "pdsch"
+      ],
+      "hardware_type": "nvidia",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case104",
+      "domain_type": "dlphy",
+      "prb_length": 52,
+      "cells": 9,
+      "channel_type": [
+        "pdsch",
+        "pdcch"
+      ],
+      "hardware_type": "nvidia",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case117",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 176,
+      "cells": 10,
+      "channel_type": [
+        "pucch",
+        "prach",
+        "pdsch",
+        "pdcch"
+      ],
+      "hardware_type": "samsung",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case118",
+      "domain_type": "dlphy",
+      "prb_length": 240,
+      "cells": 3,
+      "channel_type": [
+        "pdcch"
+      ],
+      "hardware_type": "nvidia",
+      "test_periodicity": "weekly",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case132",
+      "domain_type": "ulphy",
+      "prb_length": 211,
+      "cells": 3,
+      "channel_type": [
+        "prach",
+        "pucch",
+        "pusch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "weekly",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case133",
+      "domain_type": "dlphy",
+      "prb_length": 196,
+      "cells": 10,
+      "channel_type": [
+        "pdsch",
+        "pdcch"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case139",
+      "domain_type": "dlphy",
+      "prb_length": 226,
+      "cells": 6,
+      "channel_type": [
+        "pdsch",
+        "pdcch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case145",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 163,
+      "cells": 2,
+      "channel_type": [
+        "pusch",
+        "prach",
+        "pucch",
+        "pdcch"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "weekly",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case150",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 159,
+      "cells": 3,
+      "channel_type": [
+        "pusch",
+        "prach",
+        "pucch",
+        "pdcch",
+        "pdsch"
+      ],
+      "hardware_type": "nvidia",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case154",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 117,
+      "cells": 6,
+      "channel_type": [
+        "pusch",
+        "pucch",
+        "pdsch",
+        "pdcch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case162",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 5,
+      "cells": 4,
+      "channel_type": [
+        "prach",
+        "pucch",
+        "pusch",
+        "pdsch",
+        "pdcch"
+      ],
+      "hardware_type": "nvidia",
+      "test_periodicity": "weekly",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case165",
+      "domain_type": "ulphy",
+      "prb_length": 39,
+      "cells": 6,
+      "channel_type": [
+        "prach",
+        "pusch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case168",
+      "domain_type": "ulphy",
+      "prb_length": 72,
+      "cells": 3,
+      "channel_type": [
+        "pucch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case177",
+      "domain_type": "dlphy",
+      "prb_length": 200,
+      "cells": 4,
+      "channel_type": [
+        "pdcch"
+      ],
+      "hardware_type": "samsung",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case181",
+      "domain_type": "ulphy",
+      "prb_length": 139,
+      "cells": 8,
+      "channel_type": [
+        "pusch",
+        "pucch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case182",
+      "domain_type": "dlphy",
+      "prb_length": 136,
+      "cells": 6,
+      "channel_type": [
+        "pdsch",
+        "pdcch"
+      ],
+      "hardware_type": "samsung",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case183",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 25,
+      "cells": 1,
+      "channel_type": [
+        "prach",
+        "pucch",
+        "pusch",
+        "pdcch",
+        "pdsch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case185",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 165,
+      "cells": 3,
+      "channel_type": [
+        "pusch",
+        "pdcch"
+      ],
+      "hardware_type": "samsung",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case188",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 244,
+      "cells": 2,
+      "channel_type": [
+        "prach",
+        "pusch",
+        "pucch",
+        "pdsch"
+      ],
+      "hardware_type": "nvidia",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case198",
+      "domain_type": "ulphy",
+      "prb_length": 18,
+      "cells": 6,
+      "channel_type": [
+        "prach",
+        "pusch"
+      ],
+      "hardware_type": "samsung",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case207",
+      "domain_type": "ulphy",
+      "prb_length": 138,
+      "cells": 9,
+      "channel_type": [
+        "pucch",
+        "prach",
+        "pusch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "weekly",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case208",
+      "domain_type": "dlphy",
+      "prb_length": 142,
+      "cells": 9,
+      "channel_type": [
+        "pdsch",
+        "pdcch"
+      ],
+      "hardware_type": "nvidia",
+      "test_periodicity": "weekly",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case209",
+      "domain_type": "ulphy",
+      "prb_length": 106,
+      "cells": 4,
+      "channel_type": [
+        "pusch",
+        "prach"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case213",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 6,
+      "cells": 3,
+      "channel_type": [
+        "prach",
+        "pucch",
+        "pusch",
+        "pdcch",
+        "pdsch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case221",
+      "domain_type": "ulphy",
+      "prb_length": 101,
+      "cells": 6,
+      "channel_type": [
+        "pucch",
+        "prach",
+        "pusch"
+      ],
+      "hardware_type": "samsung",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case229",
+      "domain_type": "dlphy",
+      "prb_length": 181,
+      "cells": 8,
+      "channel_type": [
+        "pdcch"
+      ],
+      "hardware_type": "nvidia",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case231",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 170,
+      "cells": 10,
+      "channel_type": [
+        "pucch",
+        "prach",
+        "pusch",
+        "pdcch"
+      ],
+      "hardware_type": "nvidia",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case244",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 16,
+      "cells": 3,
+      "channel_type": [
+        "prach",
+        "pdsch",
+        "pdcch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case247",
+      "domain_type": "dlphy",
+      "prb_length": 137,
+      "cells": 9,
+      "channel_type": [
+        "pdsch"
+      ],
+      "hardware_type": "nvidia",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case251",
+      "domain_type": "ulphy",
+      "prb_length": 176,
+      "cells": 9,
+      "channel_type": [
+        "prach"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case260",
+      "domain_type": "ulphy",
+      "prb_length": 84,
+      "cells": 5,
+      "channel_type": [
+        "prach",
+        "pusch"
+      ],
+      "hardware_type": "nvidia",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case261",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 145,
+      "cells": 1,
+      "channel_type": [
+        "prach",
+        "pdcch"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case263",
+      "domain_type": "ulphy",
+      "prb_length": 237,
+      "cells": 4,
+      "channel_type": [
+        "pusch",
+        "prach",
+        "pucch"
+      ],
+      "hardware_type": "nvidia",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case264",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 215,
+      "cells": 5,
+      "channel_type": [
+        "prach",
+        "pdcch"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case267",
+      "domain_type": "ulphy",
+      "prb_length": 48,
+      "cells": 6,
+      "channel_type": [
+        "prach",
+        "pucch"
+      ],
+      "hardware_type": "nvidia",
+      "test_periodicity": "weekly",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case271",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 69,
+      "cells": 5,
+      "channel_type": [
+        "prach",
+        "pdsch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "weekly",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case281",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 151,
+      "cells": 10,
+      "channel_type": [
+        "pucch",
+        "pusch",
+        "prach",
+        "pdsch",
+        "pdcch"
+      ],
+      "hardware_type": "samsung",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case282",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 12,
+      "cells": 2,
+      "channel_type": [
+        "prach",
+        "pucch",
+        "pdsch",
+        "pdcch"
+      ],
+      "hardware_type": "nvidia",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case290",
+      "domain_type": "dlphy",
+      "prb_length": 210,
+      "cells": 5,
+      "channel_type": [
+        "pdcch"
+      ],
+      "hardware_type": "nvidia",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case292",
+      "domain_type": "dlphy",
+      "prb_length": 38,
+      "cells": 8,
+      "channel_type": [
+        "pdcch"
+      ],
+      "hardware_type": "samsung",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case311",
+      "domain_type": "dlphy",
+      "prb_length": 133,
+      "cells": 1,
+      "channel_type": [
+        "pdsch"
+      ],
+      "hardware_type": "samsung",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case318",
+      "domain_type": "ulphy",
+      "prb_length": 137,
+      "cells": 9,
+      "channel_type": [
+        "pucch",
+        "pusch",
+        "prach"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case320",
+      "domain_type": "dlphy",
+      "prb_length": 248,
+      "cells": 9,
+      "channel_type": [
+        "pdsch",
+        "pdcch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case322",
+      "domain_type": "dlphy",
+      "prb_length": 250,
+      "cells": 10,
+      "channel_type": [
+        "pdcch",
+        "pdsch"
+      ],
+      "hardware_type": "samsung",
+      "test_periodicity": "weekly",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case323",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 241,
+      "cells": 8,
+      "channel_type": [
+        "pusch",
+        "pucch",
+        "pdcch",
+        "pdsch"
+      ],
+      "hardware_type": "samsung",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case329",
+      "domain_type": "dlphy",
+      "prb_length": 122,
+      "cells": 8,
+      "channel_type": [
+        "pdcch",
+        "pdsch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case330",
+      "domain_type": "ulphy",
+      "prb_length": 115,
+      "cells": 8,
+      "channel_type": [
+        "pucch",
+        "pusch",
+        "prach"
+      ],
+      "hardware_type": "samsung",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case331",
+      "domain_type": "dlphy",
+      "prb_length": 22,
+      "cells": 7,
+      "channel_type": [
+        "pdsch"
+      ],
+      "hardware_type": "nvidia",
+      "test_periodicity": "weekly",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case340",
+      "domain_type": "ulphy",
+      "prb_length": 240,
+      "cells": 2,
+      "channel_type": [
+        "prach"
+      ],
+      "hardware_type": "samsung",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case341",
+      "domain_type": "ulphy",
+      "prb_length": 174,
+      "cells": 7,
+      "channel_type": [
+        "pusch",
+        "prach",
+        "pucch"
+      ],
+      "hardware_type": "samsung",
+      "test_periodicity": "weekly",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case358",
+      "domain_type": "dlphy",
+      "prb_length": 38,
+      "cells": 6,
+      "channel_type": [
+        "pdcch"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case369",
+      "domain_type": "ulphy",
+      "prb_length": 60,
+      "cells": 10,
+      "channel_type": [
+        "pusch",
+        "pucch"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case373",
+      "domain_type": "dlphy",
+      "prb_length": 150,
+      "cells": 5,
+      "channel_type": [
+        "pdcch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "weekly",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case377",
+      "domain_type": "ulphy",
+      "prb_length": 19,
+      "cells": 3,
+      "channel_type": [
+        "prach",
+        "pucch",
+        "pusch"
+      ],
+      "hardware_type": "samsung",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case385",
+      "domain_type": "dlphy",
+      "prb_length": 86,
+      "cells": 2,
+      "channel_type": [
+        "pdcch"
+      ],
+      "hardware_type": "nvidia",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case387",
+      "domain_type": "ulphy",
+      "prb_length": 145,
+      "cells": 4,
+      "channel_type": [
+        "prach"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case388",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 211,
+      "cells": 5,
+      "channel_type": [
+        "pucch",
+        "pdsch",
+        "pdcch"
+      ],
+      "hardware_type": "nvidia",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case394",
+      "domain_type": "ulphy",
+      "prb_length": 217,
+      "cells": 8,
+      "channel_type": [
+        "prach",
+        "pucch"
+      ],
+      "hardware_type": "nvidia",
+      "test_periodicity": "weekly",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case398",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 39,
+      "cells": 2,
+      "channel_type": [
+        "pusch",
+        "prach",
+        "pucch",
+        "pdcch",
+        "pdsch"
+      ],
+      "hardware_type": "samsung",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case402",
+      "domain_type": "ulphy",
+      "prb_length": 57,
+      "cells": 7,
+      "channel_type": [
+        "pusch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case420",
+      "domain_type": "dlphy",
+      "prb_length": 246,
+      "cells": 8,
+      "channel_type": [
+        "pdsch",
+        "pdcch"
+      ],
+      "hardware_type": "nvidia",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case421",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 37,
+      "cells": 6,
+      "channel_type": [
+        "pucch",
+        "pusch",
+        "pdcch"
+      ],
+      "hardware_type": "samsung",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case425",
+      "domain_type": "ulphy",
+      "prb_length": 234,
+      "cells": 7,
+      "channel_type": [
+        "pucch",
+        "pusch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case431",
+      "domain_type": "ulphy",
+      "prb_length": 158,
+      "cells": 3,
+      "channel_type": [
+        "pucch",
+        "pusch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case433",
+      "domain_type": "dlphy",
+      "prb_length": 35,
+      "cells": 1,
+      "channel_type": [
+        "pdsch",
+        "pdcch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case440",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 58,
+      "cells": 9,
+      "channel_type": [
+        "pucch",
+        "pdsch",
+        "pdcch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "weekly",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case441",
+      "domain_type": "dlphy",
+      "prb_length": 74,
+      "cells": 4,
+      "channel_type": [
+        "pdcch",
+        "pdsch"
+      ],
+      "hardware_type": "samsung",
+      "test_periodicity": "weekly",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case442",
+      "domain_type": "dlphy",
+      "prb_length": 54,
+      "cells": 3,
+      "channel_type": [
+        "pdcch",
+        "pdsch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "weekly",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case443",
+      "domain_type": "ulphy",
+      "prb_length": 14,
+      "cells": 2,
+      "channel_type": [
+        "pusch",
+        "pucch",
+        "prach"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "weekly",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case448",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 167,
+      "cells": 2,
+      "channel_type": [
+        "pucch",
+        "pusch",
+        "pdsch",
+        "pdcch"
+      ],
+      "hardware_type": "nvidia",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case461",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 87,
+      "cells": 1,
+      "channel_type": [
+        "prach",
+        "pusch",
+        "pucch",
+        "pdsch"
+      ],
+      "hardware_type": "samsung",
+      "test_periodicity": "weekly",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case462",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 205,
+      "cells": 1,
+      "channel_type": [
+        "pucch",
+        "pdcch"
+      ],
+      "hardware_type": "nvidia",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case465",
+      "domain_type": "dlphy",
+      "prb_length": 199,
+      "cells": 2,
+      "channel_type": [
+        "pdsch",
+        "pdcch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case468",
+      "domain_type": "dlphy",
+      "prb_length": 151,
+      "cells": 1,
+      "channel_type": [
+        "pdcch"
+      ],
+      "hardware_type": "samsung",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case470",
+      "domain_type": "ulphy",
+      "prb_length": 32,
+      "cells": 6,
+      "channel_type": [
+        "prach"
+      ],
+      "hardware_type": "nvidia",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case474",
+      "domain_type": "ulphy",
+      "prb_length": 57,
+      "cells": 2,
+      "channel_type": [
+        "prach"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case498",
+      "domain_type": "dlphy",
+      "prb_length": 117,
+      "cells": 10,
+      "channel_type": [
+        "pdcch",
+        "pdsch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "weekly",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case499",
+      "domain_type": "dlphy",
+      "prb_length": 163,
+      "cells": 5,
+      "channel_type": [
+        "pdcch",
+        "pdsch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    }
+  ],
+  "tb1": [
+    {
+      "test_case": "test_case11",
+      "domain_type": "dlphy",
+      "prb_length": 134,
+      "cells": 2,
+      "channel_type": [
+        "pdcch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "weekly",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case20",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 213,
+      "cells": 4,
+      "channel_type": [
+        "prach",
+        "pdcch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case23",
+      "domain_type": "ulphy",
+      "prb_length": 19,
+      "cells": 6,
+      "channel_type": [
+        "prach",
+        "pucch"
+      ],
+      "hardware_type": "samsung",
+      "test_periodicity": "weekly",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case25",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 43,
+      "cells": 7,
+      "channel_type": [
+        "pucch",
+        "prach",
+        "pusch",
+        "pdsch"
+      ],
+      "hardware_type": "samsung",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case29",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 118,
+      "cells": 4,
+      "channel_type": [
+        "prach",
+        "pusch",
+        "pdsch"
+      ],
+      "hardware_type": "samsung",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case33",
+      "domain_type": "dlphy",
+      "prb_length": 32,
+      "cells": 1,
+      "channel_type": [
+        "pdcch"
+      ],
+      "hardware_type": "samsung",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case35",
+      "domain_type": "dlphy",
+      "prb_length": 207,
+      "cells": 6,
+      "channel_type": [
+        "pdcch"
+      ],
+      "hardware_type": "samsung",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case40",
+      "domain_type": "dlphy",
+      "prb_length": 143,
+      "cells": 6,
+      "channel_type": [
+        "pdsch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "weekly",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case41",
+      "domain_type": "dlphy",
+      "prb_length": 3,
+      "cells": 3,
+      "channel_type": [
+        "pdcch"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case45",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 40,
+      "cells": 3,
+      "channel_type": [
+        "prach",
+        "pucch",
+        "pdcch"
+      ],
+      "hardware_type": "samsung",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case57",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 112,
+      "cells": 5,
+      "channel_type": [
+        "pucch",
+        "pdsch"
+      ],
+      "hardware_type": "samsung",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case58",
+      "domain_type": "dlphy",
+      "prb_length": 39,
+      "cells": 10,
+      "channel_type": [
+        "pdsch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "weekly",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case65",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 84,
+      "cells": 6,
+      "channel_type": [
+        "pusch",
+        "prach",
+        "pucch",
+        "pdcch",
+        "pdsch"
+      ],
+      "hardware_type": "samsung",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case70",
+      "domain_type": "ulphy",
+      "prb_length": 188,
+      "cells": 4,
+      "channel_type": [
+        "prach",
+        "pusch"
+      ],
+      "hardware_type": "samsung",
+      "test_periodicity": "weekly",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case78",
+      "domain_type": "dlphy",
+      "prb_length": 81,
+      "cells": 8,
+      "channel_type": [
+        "pdcch"
+      ],
+      "hardware_type": "nvidia",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case81",
+      "domain_type": "ulphy",
+      "prb_length": 111,
+      "cells": 6,
+      "channel_type": [
+        "prach",
+        "pusch",
+        "pucch"
+      ],
+      "hardware_type": "samsung",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case87",
+      "domain_type": "dlphy",
+      "prb_length": 127,
+      "cells": 3,
+      "channel_type": [
+        "pdsch",
+        "pdcch"
+      ],
+      "hardware_type": "nvidia",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case96",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 107,
+      "cells": 8,
+      "channel_type": [
+        "pucch",
+        "pusch",
+        "prach",
+        "pdcch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case97",
+      "domain_type": "ulphy",
+      "prb_length": 25,
+      "cells": 1,
+      "channel_type": [
+        "pucch",
+        "pusch"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case101",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 226,
+      "cells": 5,
+      "channel_type": [
+        "pucch",
+        "pdcch",
+        "pdsch"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case102",
+      "domain_type": "dlphy",
+      "prb_length": 50,
+      "cells": 9,
+      "channel_type": [
+        "pdcch"
+      ],
+      "hardware_type": "nvidia",
+      "test_periodicity": "weekly",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case103",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 26,
+      "cells": 10,
+      "channel_type": [
+        "pusch",
+        "prach",
+        "pucch",
+        "pdcch"
+      ],
+      "hardware_type": "samsung",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case129",
+      "domain_type": "ulphy",
+      "prb_length": 218,
+      "cells": 2,
+      "channel_type": [
+        "pucch",
+        "prach"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case144",
+      "domain_type": "dlphy",
+      "prb_length": 99,
+      "cells": 9,
+      "channel_type": [
+        "pdcch"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case146",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 96,
+      "cells": 1,
+      "channel_type": [
+        "pucch",
+        "prach",
+        "pdcch"
+      ],
+      "hardware_type": "nvidia",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case167",
+      "domain_type": "ulphy",
+      "prb_length": 68,
+      "cells": 6,
+      "channel_type": [
+        "pucch",
+        "pusch",
+        "prach"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case171",
+      "domain_type": "ulphy",
+      "prb_length": 227,
+      "cells": 7,
+      "channel_type": [
+        "pusch",
+        "prach"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case174",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 145,
+      "cells": 4,
+      "channel_type": [
+        "pucch",
+        "prach",
+        "pusch",
+        "pdsch"
+      ],
+      "hardware_type": "nvidia",
+      "test_periodicity": "weekly",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case175",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 139,
+      "cells": 5,
+      "channel_type": [
+        "pucch",
+        "prach",
+        "pdsch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case176",
+      "domain_type": "dlphy",
+      "prb_length": 183,
+      "cells": 6,
+      "channel_type": [
+        "pdcch",
+        "pdsch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case178",
+      "domain_type": "dlphy",
+      "prb_length": 216,
+      "cells": 3,
+      "channel_type": [
+        "pdsch"
+      ],
+      "hardware_type": "nvidia",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case184",
+      "domain_type": "ulphy",
+      "prb_length": 57,
+      "cells": 5,
+      "channel_type": [
+        "pusch"
+      ],
+      "hardware_type": "samsung",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case189",
+      "domain_type": "ulphy",
+      "prb_length": 136,
+      "cells": 4,
+      "channel_type": [
+        "pusch"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "weekly",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case202",
+      "domain_type": "dlphy",
+      "prb_length": 181,
+      "cells": 8,
+      "channel_type": [
+        "pdsch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case212",
+      "domain_type": "dlphy",
+      "prb_length": 212,
+      "cells": 6,
+      "channel_type": [
+        "pdcch"
+      ],
+      "hardware_type": "nvidia",
+      "test_periodicity": "weekly",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case218",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 246,
+      "cells": 4,
+      "channel_type": [
+        "pusch",
+        "pucch",
+        "pdcch",
+        "pdsch"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case226",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 76,
+      "cells": 1,
+      "channel_type": [
+        "prach",
+        "pdcch",
+        "pdsch"
+      ],
+      "hardware_type": "samsung",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case228",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 206,
+      "cells": 5,
+      "channel_type": [
+        "pusch",
+        "prach",
+        "pdsch"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case232",
+      "domain_type": "dlphy",
+      "prb_length": 224,
+      "cells": 3,
+      "channel_type": [
+        "pdsch"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case234",
+      "domain_type": "ulphy",
+      "prb_length": 224,
+      "cells": 6,
+      "channel_type": [
+        "pusch"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "weekly",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case239",
+      "domain_type": "ulphy",
+      "prb_length": 104,
+      "cells": 1,
+      "channel_type": [
+        "pusch",
+        "prach",
+        "pucch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case240",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 209,
+      "cells": 2,
+      "channel_type": [
+        "pusch",
+        "pdsch"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "weekly",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case241",
+      "domain_type": "ulphy",
+      "prb_length": 105,
+      "cells": 3,
+      "channel_type": [
+        "pusch"
+      ],
+      "hardware_type": "nvidia",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case248",
+      "domain_type": "ulphy",
+      "prb_length": 212,
+      "cells": 7,
+      "channel_type": [
+        "prach",
+        "pucch",
+        "pusch"
+      ],
+      "hardware_type": "samsung",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case252",
+      "domain_type": "ulphy",
+      "prb_length": 10,
+      "cells": 5,
+      "channel_type": [
+        "pusch",
+        "pucch",
+        "prach"
+      ],
+      "hardware_type": "samsung",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case265",
+      "domain_type": "dlphy",
+      "prb_length": 23,
+      "cells": 2,
+      "channel_type": [
+        "pdcch",
+        "pdsch"
+      ],
+      "hardware_type": "nvidia",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case266",
+      "domain_type": "dlphy",
+      "prb_length": 174,
+      "cells": 4,
+      "channel_type": [
+        "pdcch",
+        "pdsch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case269",
+      "domain_type": "ulphy",
+      "prb_length": 23,
+      "cells": 8,
+      "channel_type": [
+        "pucch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case272",
+      "domain_type": "dlphy",
+      "prb_length": 21,
+      "cells": 7,
+      "channel_type": [
+        "pdcch"
+      ],
+      "hardware_type": "nvidia",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case276",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 45,
+      "cells": 1,
+      "channel_type": [
+        "prach",
+        "pusch",
+        "pucch",
+        "pdsch",
+        "pdcch"
+      ],
+      "hardware_type": "nvidia",
+      "test_periodicity": "weekly",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case286",
+      "domain_type": "dlphy",
+      "prb_length": 159,
+      "cells": 2,
+      "channel_type": [
+        "pdcch"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "weekly",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case287",
+      "domain_type": "dlphy",
+      "prb_length": 212,
+      "cells": 6,
+      "channel_type": [
+        "pdsch"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case291",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 16,
+      "cells": 10,
+      "channel_type": [
+        "prach",
+        "pusch",
+        "pucch",
+        "pdcch",
+        "pdsch"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case294",
+      "domain_type": "ulphy",
+      "prb_length": 98,
+      "cells": 10,
+      "channel_type": [
+        "prach",
+        "pucch",
+        "pusch"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case306",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 172,
+      "cells": 2,
+      "channel_type": [
+        "pusch",
+        "pucch",
+        "pdcch",
+        "pdsch"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case310",
+      "domain_type": "dlphy",
+      "prb_length": 215,
+      "cells": 5,
+      "channel_type": [
+        "pdcch",
+        "pdsch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case316",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 63,
+      "cells": 9,
+      "channel_type": [
+        "pusch",
+        "prach",
+        "pucch",
+        "pdcch",
+        "pdsch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "weekly",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case325",
+      "domain_type": "dlphy",
+      "prb_length": 125,
+      "cells": 6,
+      "channel_type": [
+        "pdsch"
+      ],
+      "hardware_type": "nvidia",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case334",
+      "domain_type": "dlphy",
+      "prb_length": 191,
+      "cells": 2,
+      "channel_type": [
+        "pdsch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "weekly",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case337",
+      "domain_type": "ulphy",
+      "prb_length": 192,
+      "cells": 4,
+      "channel_type": [
+        "prach",
+        "pucch",
+        "pusch"
+      ],
+      "hardware_type": "samsung",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case338",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 154,
+      "cells": 8,
+      "channel_type": [
+        "prach",
+        "pdcch",
+        "pdsch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case339",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 197,
+      "cells": 7,
+      "channel_type": [
+        "pusch",
+        "prach",
+        "pucch",
+        "pdcch",
+        "pdsch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case344",
+      "domain_type": "ulphy",
+      "prb_length": 1,
+      "cells": 3,
+      "channel_type": [
+        "pusch"
+      ],
+      "hardware_type": "nvidia",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case361",
+      "domain_type": "ulphy",
+      "prb_length": 238,
+      "cells": 10,
+      "channel_type": [
+        "pusch",
+        "prach"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case368",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 215,
+      "cells": 2,
+      "channel_type": [
+        "pucch",
+        "pdsch",
+        "pdcch"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case371",
+      "domain_type": "ulphy",
+      "prb_length": 105,
+      "cells": 10,
+      "channel_type": [
+        "pucch",
+        "prach",
+        "pusch"
+      ],
+      "hardware_type": "nvidia",
+      "test_periodicity": "weekly",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case391",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 93,
+      "cells": 3,
+      "channel_type": [
+        "pucch",
+        "pdcch",
+        "pdsch"
+      ],
+      "hardware_type": "samsung",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case399",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 22,
+      "cells": 8,
+      "channel_type": [
+        "prach",
+        "pusch",
+        "pdcch",
+        "pdsch"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "weekly",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case405",
+      "domain_type": "ulphy",
+      "prb_length": 167,
+      "cells": 6,
+      "channel_type": [
+        "prach"
+      ],
+      "hardware_type": "samsung",
+      "test_periodicity": "weekly",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case426",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 113,
+      "cells": 6,
+      "channel_type": [
+        "pucch",
+        "prach",
+        "pdsch",
+        "pdcch"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "weekly",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case432",
+      "domain_type": "dlphy",
+      "prb_length": 66,
+      "cells": 3,
+      "channel_type": [
+        "pdcch",
+        "pdsch"
+      ],
+      "hardware_type": "samsung",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case451",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 100,
+      "cells": 6,
+      "channel_type": [
+        "pusch",
+        "prach",
+        "pdsch",
+        "pdcch"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case458",
+      "domain_type": "ulphy",
+      "prb_length": 121,
+      "cells": 7,
+      "channel_type": [
+        "pusch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case469",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 188,
+      "cells": 2,
+      "channel_type": [
+        "pucch",
+        "prach",
+        "pdcch"
+      ],
+      "hardware_type": "nvidia",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case472",
+      "domain_type": "ulphy",
+      "prb_length": 211,
+      "cells": 9,
+      "channel_type": [
+        "pucch",
+        "pusch"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "weekly",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case481",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 205,
+      "cells": 10,
+      "channel_type": [
+        "prach",
+        "pucch",
+        "pusch",
+        "pdsch",
+        "pdcch"
+      ],
+      "hardware_type": "samsung",
+      "test_periodicity": "weekly",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case482",
+      "domain_type": "dlphy",
+      "prb_length": 55,
+      "cells": 4,
+      "channel_type": [
+        "pdsch",
+        "pdcch"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case486",
+      "domain_type": "dlphy",
+      "prb_length": 158,
+      "cells": 10,
+      "channel_type": [
+        "pdcch",
+        "pdsch"
+      ],
+      "hardware_type": "nvidia",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case488",
+      "domain_type": "dlphy",
+      "prb_length": 56,
+      "cells": 3,
+      "channel_type": [
+        "pdsch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case489",
+      "domain_type": "dlphy",
+      "prb_length": 12,
+      "cells": 2,
+      "channel_type": [
+        "pdsch",
+        "pdcch"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case494",
+      "domain_type": "dlphy",
+      "prb_length": 66,
+      "cells": 5,
+      "channel_type": [
+        "pdsch",
+        "pdcch"
+      ],
+      "hardware_type": "samsung",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case500",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 115,
+      "cells": 10,
+      "channel_type": [
+        "pucch",
+        "pusch",
+        "prach",
+        "pdsch",
+        "pdcch"
+      ],
+      "hardware_type": "samsung",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    }
+  ],
+  "tb2": [
+    {
+      "test_case": "test_case38",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 179,
+      "cells": 7,
+      "channel_type": [
+        "prach",
+        "pucch",
+        "pdsch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "weekly",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case46",
+      "domain_type": "ulphy",
+      "prb_length": 210,
+      "cells": 10,
+      "channel_type": [
+        "pucch",
+        "pusch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case52",
+      "domain_type": "ulphy",
+      "prb_length": 4,
+      "cells": 5,
+      "channel_type": [
+        "prach",
+        "pucch"
+      ],
+      "hardware_type": "samsung",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case53",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 173,
+      "cells": 6,
+      "channel_type": [
+        "pusch",
+        "pdcch"
+      ],
+      "hardware_type": "nvidia",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case56",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 129,
+      "cells": 9,
+      "channel_type": [
+        "prach",
+        "pdcch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case62",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 217,
+      "cells": 1,
+      "channel_type": [
+        "prach",
+        "pdcch",
+        "pdsch"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case66",
+      "domain_type": "ulphy",
+      "prb_length": 96,
+      "cells": 4,
+      "channel_type": [
+        "prach",
+        "pucch",
+        "pusch"
+      ],
+      "hardware_type": "samsung",
+      "test_periodicity": "weekly",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case72",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 175,
+      "cells": 10,
+      "channel_type": [
+        "prach",
+        "pusch",
+        "pdsch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case77",
+      "domain_type": "dlphy",
+      "prb_length": 166,
+      "cells": 6,
+      "channel_type": [
+        "pdcch",
+        "pdsch"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "weekly",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case85",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 229,
+      "cells": 6,
+      "channel_type": [
+        "prach",
+        "pucch",
+        "pusch",
+        "pdcch",
+        "pdsch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case90",
+      "domain_type": "ulphy",
+      "prb_length": 32,
+      "cells": 2,
+      "channel_type": [
+        "prach"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case99",
+      "domain_type": "ulphy",
+      "prb_length": 147,
+      "cells": 10,
+      "channel_type": [
+        "prach",
+        "pucch",
+        "pusch"
+      ],
+      "hardware_type": "samsung",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case105",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 156,
+      "cells": 6,
+      "channel_type": [
+        "prach",
+        "pdsch",
+        "pdcch"
+      ],
+      "hardware_type": "samsung",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case106",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 209,
+      "cells": 8,
+      "channel_type": [
+        "pucch",
+        "pdsch"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case116",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 24,
+      "cells": 6,
+      "channel_type": [
+        "pucch",
+        "pdcch",
+        "pdsch"
+      ],
+      "hardware_type": "nvidia",
+      "test_periodicity": "weekly",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case121",
+      "domain_type": "ulphy",
+      "prb_length": 156,
+      "cells": 5,
+      "channel_type": [
+        "pusch",
+        "pucch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case122",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 171,
+      "cells": 5,
+      "channel_type": [
+        "prach",
+        "pucch",
+        "pusch",
+        "pdcch",
+        "pdsch"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case125",
+      "domain_type": "ulphy",
+      "prb_length": 77,
+      "cells": 9,
+      "channel_type": [
+        "pucch",
+        "prach",
+        "pusch"
+      ],
+      "hardware_type": "nvidia",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case140",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 30,
+      "cells": 5,
+      "channel_type": [
+        "prach",
+        "pucch",
+        "pusch",
+        "pdsch",
+        "pdcch"
+      ],
+      "hardware_type": "nvidia",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case143",
+      "domain_type": "ulphy",
+      "prb_length": 40,
+      "cells": 8,
+      "channel_type": [
+        "prach",
+        "pucch"
+      ],
+      "hardware_type": "samsung",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case148",
+      "domain_type": "ulphy",
+      "prb_length": 178,
+      "cells": 8,
+      "channel_type": [
+        "pucch",
+        "prach",
+        "pusch"
+      ],
+      "hardware_type": "samsung",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case152",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 95,
+      "cells": 4,
+      "channel_type": [
+        "pusch",
+        "pdsch"
+      ],
+      "hardware_type": "nvidia",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case153",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 138,
+      "cells": 1,
+      "channel_type": [
+        "prach",
+        "pucch",
+        "pusch",
+        "pdsch"
+      ],
+      "hardware_type": "samsung",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case156",
+      "domain_type": "ulphy",
+      "prb_length": 220,
+      "cells": 5,
+      "channel_type": [
+        "pusch",
+        "prach",
+        "pucch"
+      ],
+      "hardware_type": "nvidia",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case164",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 182,
+      "cells": 6,
+      "channel_type": [
+        "prach",
+        "pucch",
+        "pdsch"
+      ],
+      "hardware_type": "nvidia",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case179",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 128,
+      "cells": 5,
+      "channel_type": [
+        "pucch",
+        "prach",
+        "pusch",
+        "pdsch",
+        "pdcch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case191",
+      "domain_type": "ulphy",
+      "prb_length": 43,
+      "cells": 1,
+      "channel_type": [
+        "pusch",
+        "prach"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "weekly",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case192",
+      "domain_type": "ulphy",
+      "prb_length": 93,
+      "cells": 4,
+      "channel_type": [
+        "prach"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case193",
+      "domain_type": "ulphy",
+      "prb_length": 101,
+      "cells": 5,
+      "channel_type": [
+        "pucch",
+        "pusch"
+      ],
+      "hardware_type": "nvidia",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case194",
+      "domain_type": "ulphy",
+      "prb_length": 156,
+      "cells": 8,
+      "channel_type": [
+        "pusch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case197",
+      "domain_type": "dlphy",
+      "prb_length": 51,
+      "cells": 5,
+      "channel_type": [
+        "pdcch",
+        "pdsch"
+      ],
+      "hardware_type": "nvidia",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case200",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 222,
+      "cells": 3,
+      "channel_type": [
+        "pucch",
+        "prach",
+        "pusch",
+        "pdsch",
+        "pdcch"
+      ],
+      "hardware_type": "nvidia",
+      "test_periodicity": "weekly",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case203",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 236,
+      "cells": 2,
+      "channel_type": [
+        "prach",
+        "pucch",
+        "pusch",
+        "pdsch",
+        "pdcch"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case206",
+      "domain_type": "dlphy",
+      "prb_length": 83,
+      "cells": 6,
+      "channel_type": [
+        "pdsch"
+      ],
+      "hardware_type": "nvidia",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case211",
+      "domain_type": "ulphy",
+      "prb_length": 133,
+      "cells": 3,
+      "channel_type": [
+        "prach",
+        "pusch",
+        "pucch"
+      ],
+      "hardware_type": "nvidia",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case216",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 107,
+      "cells": 4,
+      "channel_type": [
+        "prach",
+        "pucch",
+        "pusch",
+        "pdsch",
+        "pdcch"
+      ],
+      "hardware_type": "samsung",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case223",
+      "domain_type": "ulphy",
+      "prb_length": 189,
+      "cells": 2,
+      "channel_type": [
+        "pusch"
+      ],
+      "hardware_type": "samsung",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case237",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 147,
+      "cells": 8,
+      "channel_type": [
+        "pusch",
+        "prach",
+        "pucch",
+        "pdcch",
+        "pdsch"
+      ],
+      "hardware_type": "nvidia",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case238",
+      "domain_type": "dlphy",
+      "prb_length": 81,
+      "cells": 6,
+      "channel_type": [
+        "pdcch"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case246",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 35,
+      "cells": 7,
+      "channel_type": [
+        "prach",
+        "pdcch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "weekly",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case250",
+      "domain_type": "dlphy",
+      "prb_length": 147,
+      "cells": 3,
+      "channel_type": [
+        "pdcch",
+        "pdsch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case257",
+      "domain_type": "dlphy",
+      "prb_length": 189,
+      "cells": 1,
+      "channel_type": [
+        "pdcch",
+        "pdsch"
+      ],
+      "hardware_type": "samsung",
+      "test_periodicity": "weekly",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case258",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 108,
+      "cells": 6,
+      "channel_type": [
+        "pusch",
+        "pucch",
+        "prach",
+        "pdsch",
+        "pdcch"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "weekly",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case262",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 59,
+      "cells": 5,
+      "channel_type": [
+        "pucch",
+        "pusch",
+        "pdsch"
+      ],
+      "hardware_type": "nvidia",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case274",
+      "domain_type": "dlphy",
+      "prb_length": 218,
+      "cells": 4,
+      "channel_type": [
+        "pdcch",
+        "pdsch"
+      ],
+      "hardware_type": "nvidia",
+      "test_periodicity": "weekly",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case277",
+      "domain_type": "dlphy",
+      "prb_length": 35,
+      "cells": 4,
+      "channel_type": [
+        "pdcch"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case279",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 54,
+      "cells": 2,
+      "channel_type": [
+        "pucch",
+        "prach",
+        "pdcch",
+        "pdsch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "weekly",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case280",
+      "domain_type": "dlphy",
+      "prb_length": 42,
+      "cells": 5,
+      "channel_type": [
+        "pdcch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case284",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 191,
+      "cells": 6,
+      "channel_type": [
+        "prach",
+        "pucch",
+        "pdcch"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "weekly",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case288",
+      "domain_type": "dlphy",
+      "prb_length": 75,
+      "cells": 7,
+      "channel_type": [
+        "pdsch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "weekly",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case295",
+      "domain_type": "dlphy",
+      "prb_length": 164,
+      "cells": 8,
+      "channel_type": [
+        "pdsch"
+      ],
+      "hardware_type": "samsung",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case296",
+      "domain_type": "ulphy",
+      "prb_length": 237,
+      "cells": 3,
+      "channel_type": [
+        "pucch",
+        "pusch"
+      ],
+      "hardware_type": "nvidia",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case299",
+      "domain_type": "ulphy",
+      "prb_length": 111,
+      "cells": 2,
+      "channel_type": [
+        "pucch",
+        "pusch"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "weekly",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case300",
+      "domain_type": "ulphy",
+      "prb_length": 66,
+      "cells": 2,
+      "channel_type": [
+        "pusch",
+        "pucch"
+      ],
+      "hardware_type": "nvidia",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case302",
+      "domain_type": "ulphy",
+      "prb_length": 58,
+      "cells": 4,
+      "channel_type": [
+        "prach",
+        "pucch"
+      ],
+      "hardware_type": "nvidia",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case308",
+      "domain_type": "dlphy",
+      "prb_length": 78,
+      "cells": 10,
+      "channel_type": [
+        "pdcch"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "weekly",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case312",
+      "domain_type": "dlphy",
+      "prb_length": 85,
+      "cells": 1,
+      "channel_type": [
+        "pdcch"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case313",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 128,
+      "cells": 7,
+      "channel_type": [
+        "pusch",
+        "pucch",
+        "pdsch",
+        "pdcch"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case315",
+      "domain_type": "dlphy",
+      "prb_length": 42,
+      "cells": 3,
+      "channel_type": [
+        "pdsch",
+        "pdcch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case333",
+      "domain_type": "ulphy",
+      "prb_length": 106,
+      "cells": 1,
+      "channel_type": [
+        "pucch",
+        "prach",
+        "pusch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "weekly",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case342",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 7,
+      "cells": 2,
+      "channel_type": [
+        "pusch",
+        "pdcch"
+      ],
+      "hardware_type": "samsung",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case345",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 182,
+      "cells": 8,
+      "channel_type": [
+        "pusch",
+        "prach",
+        "pucch",
+        "pdsch"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case351",
+      "domain_type": "dlphy",
+      "prb_length": 94,
+      "cells": 7,
+      "channel_type": [
+        "pdsch"
+      ],
+      "hardware_type": "nvidia",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case355",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 173,
+      "cells": 5,
+      "channel_type": [
+        "pusch",
+        "pdcch",
+        "pdsch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case357",
+      "domain_type": "dlphy",
+      "prb_length": 97,
+      "cells": 3,
+      "channel_type": [
+        "pdsch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "weekly",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case362",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 87,
+      "cells": 8,
+      "channel_type": [
+        "pusch",
+        "pdsch",
+        "pdcch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case365",
+      "domain_type": "ulphy",
+      "prb_length": 93,
+      "cells": 9,
+      "channel_type": [
+        "pucch"
+      ],
+      "hardware_type": "nvidia",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case366",
+      "domain_type": "dlphy",
+      "prb_length": 60,
+      "cells": 7,
+      "channel_type": [
+        "pdsch"
+      ],
+      "hardware_type": "nvidia",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case367",
+      "domain_type": "dlphy",
+      "prb_length": 218,
+      "cells": 6,
+      "channel_type": [
+        "pdsch"
+      ],
+      "hardware_type": "nvidia",
+      "test_periodicity": "weekly",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case375",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 70,
+      "cells": 1,
+      "channel_type": [
+        "pusch",
+        "prach",
+        "pdcch",
+        "pdsch"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "weekly",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case381",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 249,
+      "cells": 2,
+      "channel_type": [
+        "pusch",
+        "pdcch",
+        "pdsch"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "weekly",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case382",
+      "domain_type": "ulphy",
+      "prb_length": 223,
+      "cells": 7,
+      "channel_type": [
+        "pucch",
+        "prach",
+        "pusch"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case384",
+      "domain_type": "ulphy",
+      "prb_length": 74,
+      "cells": 7,
+      "channel_type": [
+        "pusch",
+        "pucch"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case390",
+      "domain_type": "ulphy",
+      "prb_length": 15,
+      "cells": 9,
+      "channel_type": [
+        "pucch",
+        "pusch",
+        "prach"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case393",
+      "domain_type": "dlphy",
+      "prb_length": 183,
+      "cells": 7,
+      "channel_type": [
+        "pdcch",
+        "pdsch"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case395",
+      "domain_type": "ulphy",
+      "prb_length": 122,
+      "cells": 5,
+      "channel_type": [
+        "prach"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case397",
+      "domain_type": "ulphy",
+      "prb_length": 214,
+      "cells": 5,
+      "channel_type": [
+        "prach",
+        "pusch",
+        "pucch"
+      ],
+      "hardware_type": "samsung",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case401",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 81,
+      "cells": 4,
+      "channel_type": [
+        "pucch",
+        "pusch",
+        "pdcch",
+        "pdsch"
+      ],
+      "hardware_type": "samsung",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case409",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 118,
+      "cells": 6,
+      "channel_type": [
+        "pusch",
+        "pdcch"
+      ],
+      "hardware_type": "nvidia",
+      "test_periodicity": "weekly",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case412",
+      "domain_type": "ulphy",
+      "prb_length": 155,
+      "cells": 9,
+      "channel_type": [
+        "pusch",
+        "pucch"
+      ],
+      "hardware_type": "nvidia",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case415",
+      "domain_type": "ulphy",
+      "prb_length": 51,
+      "cells": 4,
+      "channel_type": [
+        "prach"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case444",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 189,
+      "cells": 5,
+      "channel_type": [
+        "pucch",
+        "pusch",
+        "prach",
+        "pdcch",
+        "pdsch"
+      ],
+      "hardware_type": "nvidia",
+      "test_periodicity": "weekly",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case449",
+      "domain_type": "dlphy",
+      "prb_length": 15,
+      "cells": 7,
+      "channel_type": [
+        "pdsch"
+      ],
+      "hardware_type": "nvidia",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case450",
+      "domain_type": "ulphy",
+      "prb_length": 138,
+      "cells": 2,
+      "channel_type": [
+        "pusch",
+        "prach",
+        "pucch"
+      ],
+      "hardware_type": "nvidia",
+      "test_periodicity": "daily",
+      "test_type": "functional"
+    },
+    {
+      "test_case": "test_case457",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 226,
+      "cells": 1,
+      "channel_type": [
+        "pusch",
+        "pucch",
+        "prach",
+        "pdcch",
+        "pdsch"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "weekly",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case459",
+      "domain_type": [
+        "ulphy",
+        "dlphy"
+      ],
+      "prb_length": 134,
+      "cells": 5,
+      "channel_type": [
+        "pusch",
+        "pdcch"
+      ],
+      "hardware_type": "samsung",
+      "test_periodicity": "weekly",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case463",
+      "domain_type": "ulphy",
+      "prb_length": 84,
+      "cells": 9,
+      "channel_type": [
+        "prach"
+      ],
+      "hardware_type": "nvidia",
+      "test_periodicity": "weekly",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case467",
+      "domain_type": "ulphy",
+      "prb_length": 211,
+      "cells": 3,
+      "channel_type": [
+        "prach"
+      ],
+      "hardware_type": "amd",
+      "test_periodicity": "daily",
+      "test_type": "capacity"
+    },
+    {
+      "test_case": "test_case483",
+      "domain_type": "dlphy",
+      "prb_length": 158,
+      "cells": 1,
+      "channel_type": [
+        "pdsch"
+      ],
+      "hardware_type": "intel",
+      "test_periodicity": "weekly",
+      "test_type": "functional"
+    }
+  ]
+}
