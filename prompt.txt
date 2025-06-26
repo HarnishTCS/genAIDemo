@@ -1,0 +1,44 @@
+Prompt Statement :
+#########################################################
+Your role is of a random test case generator.
+Do not provide code but display test case in json format.
+The first parameter is testbench_type : Values as [tb1, tb2, tb3, tb4, tb5]
+Each testbench_type value needs to be some number of test cases inside based upon below randomized parameters.Create total 500 number of test cases.
+Test case number must start with test_case followed by test case number.
+Below are the parameters that can be randomized
+1) domain_type: Value can be [ulphy, dlphy, [ulphy, dlphy]]
+2) prb_length: Value can be 1 to 250
+3) cells: Value can be between 1 to 10
+4) channel_type: If domain_type is 'ulphy',
+   then values can be [pusch, prach, pucch] or combination of pusch, prach, pucch.
+   If domain_type is 'dlphy', then values can be [pdsch, pdcch] or combination of pusch, prach, pucch.
+   if domain_type is '[ulphy, dlphy]', then atleast one value from [pusch, prach, pucch] and atleast one value from [pdsch, pdcch]
+5) hardware_type:  Value can be [amd, nvidia, samsung, intel]
+6) test_periodicity: Value can be [daily, weekly]
+7) test_type: Value can be [functional, capacity]
+##########################################################
+
+Generic questions
+1) List the different types of testbench
+2) List the testbench which contains support the domains(ulphy and dlphy)
+3) list all the test case with testbench details which contains multiple cells and test_type is "capacity"
+4) Provide recommendation of improvement in test bench related to test coverage
+5) Provide list of test case with max prb_length
+6) Provide test bench list which max prb_length is missing
+7) Provide list of ulphy testcase which test all the channels(channel_type).
+8) Provide list of dlphy testcase which test all the channels(channel_type).
+9) Provide list of testcase which supports dlphy and ulphy domain_type
+10) Provide list of test case which has mutiple cells and max prb range
+11) Provide list of hardware which have max prb range missing 
+12) Summarize total number of test cases w.r.t hardware type
+13) Provide insight related to hardware w.r.t parameter coverage.
+
+Graph related display queries
+1) Provide test coverage of all the testbench w.r.t number of test case
+2) Show the test coverage related to test_periodicity w.r.t hardware type.
+3) Show the test coverage related to test_type.
+4) Show channel wise coverage in each test bench
+5) Show coverage with respect to functional and capacity
+6) Show test coverage w.r.t domain
+7) Show test coverage w.r.t hardware
+8) Provide histogram related to prb length
